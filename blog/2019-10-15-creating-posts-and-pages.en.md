@@ -3,7 +3,7 @@ title: 'Creating posts and pages'
 date: '2019-10-15 07:41:34'
 description: See how is super easy to add new posts and pages in this project
 category: Gatsby
-background: '#7d4cdb'
+background: '#00c2e3'
 image: '/assets/img/06.jpg'
 ---
 

@@ -1,10 +1,10 @@
 backend:
     #name: github # Local
-    name: git-gateway # Prod
-    repo: diogorodrigues/iceberg-gatsby-multilang
+    name: git-cps # Prod
+    repo: h00ts/calle-pata-salada
     branch: master
-    site_domain: https://iceberg-gatsby-multilang.netlify.com/
-    
+    site_domain: https://calle-pata-salada.netlify.com/
+
 
 publish_mode: editorial_workflow
 media_folder: 'static/assets/img'
@@ -54,7 +54,7 @@ collections:
                         { label: 'Gray', value: '#353b48' },
                         { label: 'Yellow', value: '#e58e26' },
                         { label: 'Green', value: '#079992' },
-                        { label: 'Purple', value: '#7d4cdb' },
+                        { label: 'Purple', value: '#00c2e3' },
                         { label: 'Red', value: '#e74c3c' },
                         { label: 'Silver', value: '#bdc3c7' },
                     ],
@@ -62,12 +62,12 @@ collections:
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
     #Posts (Portuguese)
-    - name: 'posts-pt' # Used in routes, e.g., /admin/collections/blog
-      label: 'Posts (Portuguese)' # Used in the UI
+    - name: 'posts-es' # Used in routes, e.g., /admin/collections/blog
+      label: 'Posts (Spanish)' # Used in the UI
       folder: 'blog' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
       slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-      extension: 'pt.md'
+      extension: 'es.md'
       format: frontmatter
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string' }
@@ -103,7 +103,7 @@ collections:
                         { label: 'Gray', value: '#353b48' },
                         { label: 'Yellow', value: '#e58e26' },
                         { label: 'Green', value: '#079992' },
-                        { label: 'Purple', value: '#7d4cdb' },
+                        { label: 'Purple', value: '#00c2e3' },
                         { label: 'Red', value: '#e74c3c' },
                         { label: 'Silver', value: '#bdc3c7' },
                     ],
@@ -130,12 +130,12 @@ collections:
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
     #Pages (Portuguese)
-    - name: 'pages-pt' # Used in routes, e.g., /admin/collections/blog
-      label: 'Pages (Portuguese)' # Used in the UI
+    - name: 'pages-es' # Used in routes, e.g., /admin/collections/blog
+      label: 'Pages (Spanish)' # Used in the UI
       folder: 'pages' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
       slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-      extension: 'pt.md'
+      extension: 'es.md'
       format: frontmatter
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string' }

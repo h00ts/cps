@@ -3,7 +3,7 @@ title: 'Adicionando itens no menu'
 date: '2019-10-15 15:41:34'
 description: Adicione itens no GraphQL para criar um menu dinâmico
 category: Gatsby
-background: '#7d4cdb'
+background: '#00c2e3'
 image: '/assets/img/07.jpg'
 ---
 

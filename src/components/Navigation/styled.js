@@ -26,7 +26,7 @@ export const NavigationLink = styled(LocalizedLink)`
   `}
   ${media.greaterThan('large')`
     margin-left: var(--space);
-  `} 
+  `}
 
   &:after {
     ${media.greaterThan('medium')`
@@ -60,10 +60,11 @@ export const NavigationLink = styled(LocalizedLink)`
 
 export const NavigationButton = styled(Link)`
   background: var(--primary-color);
-  border-radius: 2px;
+  border-radius: 10px;
+  width: 50px;
   color: #fff;
   display: inline-block;
-  padding: var(--space-sm) var(--space);
+  padding: 10px;
   text-decoration: none;
   font-weight: bold;
   text-align: center;

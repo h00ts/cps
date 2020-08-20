@@ -36,6 +36,7 @@ const GlobalStyles = createGlobalStyle`
   }
   body {
     line-height: 1;
+    background: #ece5d9;
   }
   ol, ul {
     list-style: none;
@@ -76,24 +77,24 @@ const GlobalStyles = createGlobalStyle`
     color: var(--primaryColor)
   }
 
-  :root { 
-    --gray-extra-light: #eaeaea; 
-    --gray-light: #747d8d;  
-    --gray: #475060;
-    --gray-dark: #2e333e;
+  :root {
+    --gray-extra-light: #ece5d9;
+    --gray-light: #ece5d9;
+    --gray: #4d5592;
+    --gray-dark: #4d5592;
 
-    --primary-color: #0066f9;
-    --secondary-color: #2e333e;
-    --thirdy-color: #001ff9;
+    --primary-color: #4d5592;
+    --secondary-color: #003f5d;
+    --thirdy-color: #cfb793;
 
-    --body-bg: #FFFFFF; 
+    --body-bg: #ece5d9;
 
     --bg-light: var(--gray-extra-light);
     --bg-dark: var(--gray-dark);
 
     --border-light: var(--gray-light);
     --border-dark: var(--gray-dark);
-    
+
     --link-color: var(--primary-color);
     --link-color-hover: var(--thirdy-color);
 

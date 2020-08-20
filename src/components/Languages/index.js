@@ -6,7 +6,7 @@ import useLanguageMapping from '../useLanguageMapping';
 import * as S from './styled';
 
 const Languages = () => {
-  // Grab the locale (passed through context) from the Locale Provider 
+  // Grab the locale (passed through context) from the Locale Provider
   // through useLocale() hook
   const { locale } = useLocale();
 
@@ -42,8 +42,8 @@ const Languages = () => {
   return (
     <S.LanguageWrapper>
       <S.LanguageItem>
-        <S.LanguageLink 
-          to="/" 
+        <S.LanguageLink
+          to="/"
           onClick={(e) => handleClickLanguage(e, "en")}
           className={locale === 'en' ? 'is-active' : ''}
         >
@@ -51,12 +51,12 @@ const Languages = () => {
         </S.LanguageLink>
       </S.LanguageItem>
       <S.LanguageItem>
-        <S.LanguageLink 
-          to="/" 
-          onClick={(e) => handleClickLanguage(e, "pt")}
+        <S.LanguageLink
+          to="/"
+          onClick={(e) => handleClickLanguage(e, "es")}
           className={locale === 'pt' ? 'is-active' : ''}
         >
-          PT
+          ES
         </S.LanguageLink>
       </S.LanguageItem>
     </S.LanguageWrapper>

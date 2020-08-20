@@ -2,6 +2,8 @@ import React from 'react';
 import useMenu from '../useMenu';
 import useTranslations from '../useTranslations';
 
+import { Instagram } from 'styled-icons/boxicons-logos/Instagram';
+
 import * as S from './styled';
 
 const Navigation = ({ isActive, handleToggleMenu }) => {
@@ -23,8 +25,9 @@ const Navigation = ({ isActive, handleToggleMenu }) => {
         ))}
 
         <S.NavigationButton to="" aria-label="Login">
-          {button}
+          <Instagram />
         </S.NavigationButton>
+
       </S.Navigation>
     </>
   );

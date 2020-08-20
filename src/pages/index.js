@@ -26,7 +26,6 @@ const Index = ({ data: { allMarkdownRemark } }) => {
       <SEO title="Home" />
       <TitlePage text={hello} />
       <p>{subline}</p>
-      <hr style={{ margin: `2rem 0` }} />
       <h2>
         <strong>{latestPosts}</strong>
       </h2>
@@ -81,7 +80,7 @@ export const query = graphql`
         fileAbsolutePath: {regex: "/(blog)\/.*\\.md$/"}
       }
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 2
+      limit: 8
     ) {
       edges {
         node {
