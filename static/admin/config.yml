@@ -1,6 +1,6 @@
 backend:
     #name: github # Local
-    name: git-cps # Prod
+    name: git-gateway # Prod
     repo: h00ts/calle-pata-salada
     branch: master
     site_domain: https://calle-pata-salada.netlify.com/
