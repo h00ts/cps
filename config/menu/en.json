@@ -1,5 +1,8 @@
 {
   "menuItems": [
     { "name": "Contact", "link": "/contact" }
+  ],
+  "categories": [
+    { "name": "Features", "link": "/features" }
   ]
 }

@@ -47,7 +47,7 @@ const Languages = () => {
           onClick={(e) => handleClickLanguage(e, "en")}
           className={locale === 'en' ? 'is-active' : ''}
         >
-          EN
+          English
         </S.LanguageLink>
       </S.LanguageItem>
       <S.LanguageItem>
@@ -56,7 +56,7 @@ const Languages = () => {
           onClick={(e) => handleClickLanguage(e, "es")}
           className={locale === 'pt' ? 'is-active' : ''}
         >
-          ES
+          Español
         </S.LanguageLink>
       </S.LanguageItem>
     </S.LanguageWrapper>
